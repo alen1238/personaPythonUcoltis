@@ -9,6 +9,9 @@ class Persona:
     def es_mayor_de_edad(self):
         return self.edad >= 18
     
+    def cambiar_nombre(self, nuevoNombre):
+        self.nombre = nuevoNombre
+    
 def main():
     persona1 = Persona('Juan', 34)
     print(persona1.saludar())
